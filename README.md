@@ -11,23 +11,23 @@ Suppose you are a customer of LIME Company and you have saving/checking account 
 
 Requirements:
 1. Bill has following information about customer and payment:
-- Due date of payment
-- - Customer ID and Name
-- - Statement Date
-- - Total Amount Due (Jamaican dollars)
+ - Due date of payment
+ - Customer ID and Name
+ - Statement Date
+ - Total Amount Due (Jamaican dollars)
 
 2. Scotia Bank (customer’s bank) has information about:
-- Customer ID
-- - Account’s (checking & saving) balance
-- Customer name
-- - Date & Time of the banking transaction
-- Customer Address
-- - Type of banking transaction
+ - Customer ID
+ - Account’s (checking & saving) balance
+ - Customer name
+ - Date & Time of the banking transaction
+ - Customer Address
+ - Type of banking transaction
 
 3. National Commercial Bank (NCB – LIME’s bank) has information about:
 - Customer ID (LIME)
-- - Saving account’s balance
+- Saving account’s balance
 - Customer name (LIME)
-- - Date & Time of the banking transaction
+- Date & Time of the banking transaction
 - Customer Address (LIME)
-- - Type of banking transaction
+- Type of banking transaction
