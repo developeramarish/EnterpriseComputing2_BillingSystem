@@ -10,24 +10,24 @@ This is a group project. Each group must designate a group leader, who is respon
 Suppose you are a customer of LIME Company and you have saving/checking account in the Scotia Bank. LIME has an account in the National Commercial Bank. Customer must pay a bill for the telephone service, produced by LIME for the period of one month. The Application, which you have to be developed, must provide this bill payment from any workstation connected to the Internet.
 
 Requirements:
-1. Bill has following information about customer and payment:
- - Due date of payment
- - Customer ID and Name
- - Statement Date
- - Total Amount Due (Jamaican dollars)
+* Bill has following information about customer and payment:
+  - Due date of payment
+  - Customer ID and Name
+  - Statement Date
+  - Total Amount Due (Jamaican dollars)
 
-2. Scotia Bank (customer’s bank) has information about:
- - Customer ID
- - Account’s (checking & saving) balance
- - Customer name
+* Scotia Bank (customer’s bank) has information about:
+  - Customer ID
+  - Account’s (checking & saving) balance
+  - Customer name
+  - Date & Time of the banking transaction
+  - Customer Address
+  - Type of banking transaction
+
+* National Commercial Bank (NCB – LIME’s bank) has information about:
+ - Customer ID (LIME)
+ - Saving account’s balance
+ - Customer name (LIME)
  - Date & Time of the banking transaction
- - Customer Address
+ - Customer Address (LIME)
  - Type of banking transaction
-
-3. National Commercial Bank (NCB – LIME’s bank) has information about:
-- Customer ID (LIME)
-- Saving account’s balance
-- Customer name (LIME)
-- Date & Time of the banking transaction
-- Customer Address (LIME)
-- Type of banking transaction
