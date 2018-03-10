@@ -25,9 +25,9 @@ Requirements:
   - Type of banking transaction
 
 * National Commercial Bank (NCB – LIME’s bank) has information about:
- - Customer ID (LIME)
- - Saving account’s balance
- - Customer name (LIME)
- - Date & Time of the banking transaction
- - Customer Address (LIME)
- - Type of banking transaction
+  - Customer ID (LIME)
+  - Saving account’s balance
+  - Customer name (LIME)
+  - Date & Time of the banking transaction
+  - Customer Address (LIME)
+  - Type of banking transaction
