@@ -1,0 +1,933 @@
+@charset "utf-8";
+
+/* Font Set */
+
+@font-face {
+    font-family: Gotham Book;
+    src: url('font/gotham/Gotham-Book.ttf');
+    /*src: url('fonts/chevin-li#ptght.woff');*/
+}
+
+@font-face {
+    font-family: Gotham Medium;
+    src: url('font/gotham/Gotham-Medium.ttf');
+    /*src: url('fonts/chevin-li#ptght.woff');*/
+}
+
+@font-face {
+    font-family: Gotham Light;
+    src: url('font/gotham/Gotham-Light.ttf');
+    /*src: url('fonts/chevin-li#ptght.woff');*/
+}
+
+.cay a:link {
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+.cay a:visited {
+    color: rgba(0, 0, 96, 175);
+}
+
+.cay .head {
+    font-family: Gotham Book;
+    line-height: 30px;
+    font-size: 40px;
+    color: rgba(111, 111, 111, 111);
+    letter-spacing: -3px;
+}
+
+.cay .subhead {
+    font-family: Gotham Medium;
+    font-weight: normal;
+    font-size: 82px;
+    line-height: 92px;
+    color: rgba(111, 111, 111, 111);
+    letter-spacing: -4px;
+}
+
+.cay .content-title {
+    font-family: Gotham Book;
+    color: #6F6F6F;
+    font-size: 15px;
+}
+
+.cay h6 {
+    font-family: Gotham Book;
+    font-size: 13px;
+}
+
+.cay .content-textsm {
+    color: rgba(111, 111, 111, 1);
+    font-family: Gotham Light;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.cay .content-text {
+    font-family: Gotham Light;
+    font-weight: normal;
+    color: rgba(111, 111, 111, 111);
+    font-size: 20px;
+    line-height: 30px
+}
+
+.cay .content-title-b {
+    font-family: Gotham Book;
+    font-weight: bold;
+    color: rgba(111, 111, 111, 111);
+    font-size: 20px;
+    line-height: 30px
+}
+
+.cay .col-txt {
+    font-family: Gotham Book;
+    color: #6F6F6F;
+}
+
+.cay .card {
+    background-color: #00ADEF;
+    width: 254px;
+}
+
+.cay .info-card {
+    text-align: center;
+}
+
+.cay .card-title {
+    font-family: Gotham Book;
+    color: #fff;
+}
+
+.cay .card-text {
+    font-family: Gotham Book;
+}
+
+.cay .card-block {
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.cay h1 {
+    font-family: Gotham Book;
+    line-height: 25px;
+    font-size: 40px;
+    color: rgba(111, 111, 111, 111);
+    letter-spacing: -3px;
+}
+
+.cay h2 {
+    font-family: Gotham Medium;
+    color: #6F6F6F;
+    letter-spacing: -4px;
+}
+
+.cay h3 {
+    font-family: Gotham Light;
+    font-weight: bold;
+    color: rgba(111, 111, 111, 111);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cay .blue-text {
+    color: #00AEEF;
+}
+
+
+/* -------------------------------- */
+
+.cay .table-simple {
+    font-size: 17px;
+    font-family: Gotham Book;
+}
+
+.cay .table-simple td.highlight {
+    color: #00AEEF;
+}
+
+.cay .table-simple caption {}
+
+.cay .table-simple .table > caption + thead > tr:first-child > td, .table-simple .table > caption + thead > tr:first-child > th, .table-simple .table > colgroup + thead > tr:first-child > td, .table-simple .table > colgroup + thead > tr:first-child > th, .table-simple .table > thead:first-child > tr:first-child > td, .table-simple .table > thead:first-child > tr:first-child > th {
+    border-bottom: 0 none;
+}
+
+
+/* -------------------------------- */
+
+.cay .talk-block a {
+    color: #6f6f6f;
+}
+
+.cay .talk-block .fa {
+    font-size: 12em;
+    color: #00AEEF;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.cay .talk-block p {
+    padding-right: 40px;
+    padding-top: 20px;
+    color: #6f6f6f;
+    font-family: Gotham Book;
+    font-size: 15px;
+}
+
+.cay .talk-block h2 {
+    margin-top: 0;
+}
+
+.cay .icon-block .fa {
+    color: #00AEEF;
+}
+
+.cay .icon-block p {
+    color: #6f6f6f;
+    font-family: Gotham Book;
+    font-size: 15px;
+}
+
+.cay div.p_table ul {
+    background: #fff none repeat scroll 0 0;
+}
+
+.cay .panel-blocks .panel {
+    background-color: #eeefed;
+    border: medium none;
+}
+
+.cay .panel-blocks p {
+     color: #6f6f6f;
+    font-family: Gotham Book;
+    font-size: 15px;
+}
+
+.cay .panel-blocks .panel-heading {
+    padding: 20px 15px;
+}
+
+.cay .panel-blocks .panel-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cay .panel-blocks .foot-wrapper {
+    border-top: 2px solid #fff;
+    padding: 0 0 20px;
+    background: #ccc none repeat scroll 0 0;
+}
+
+.cay .panel-blocks .panel-primary > .panel-blocks .panel-heading {
+    background-color: #0060af;
+    border-color: #0060af;
+}
+
+.cay #faq-block {
+    margin-bottom: 20px;
+}
+
+.cay #faq-block.panel {
+    border-radius: 3px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.cay #faq-block .panel-heading {
+    background-color: transparent;
+    padding: 25px 35px;
+}
+
+.cay #faq-block .panel-body {
+    border-top-color: transparent;
+    padding: 0 35px 35px;
+}
+
+.cay #faq-block a {
+    color: #00aeef;
+    font-family: Gotham Book;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cay #faq-block .panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+}
+
+.cay #faq-block .panel-heading .accordion-toggle.collapsed:after {
+    content: "\e114";
+}
+
+.cay #flowbtn {
+    /* width: 170px; */
+    font-family: Gotham Light;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.cay #flowbtn:hover {
+    font-family: Gotham Light;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    color: rgb(111, 111, 111);
+}
+
+.cay #flowbtn-white {
+    font-family: Gotham Light;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    color: rgb(111, 111, 111);
+}
+
+.cay div.p_table div.column_1 li.header_row_1 {
+    background-color: #005db1;
+    border-bottom: 1px solid #005db1;
+    color: #fff;
+    font-family: Gotham Light;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.cay div.p_table div.column_1:hover li.header_row_1, .cay div.p_table div.column_2:hover li.header_row_1, .cay div.p_table div.column_3:hover li.header_row_1, .cay div.p_table div.column_4:hover li.header_row_1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.cay div.p_table div.column_3 li.header_row_1 {
+    background-color: #005db1;
+    border-bottom: 1px solid #005db1;
+    color: #fff;
+    font-family: Gotham Light;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.cay div.p_table div.column_2 li.header_row_1 {
+    background-color: #00aeef;
+    border-bottom: 1px solid #1bb2bd;
+    color: #fff;
+    font-family: Gotham Light;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.cay div.p_table li.row_style_1 span, .cay div.p_table li.row_style_2 span, .cay div.p_table li.row_style_3 span, .cay div.p_table li.row_style_4 span {
+    color: #6f6f6f;
+    font-family: Gotham Book;
+    font-size: 15px;
+}
+
+.cay div.p_table li.row_style_1, .cay div.p_table li.row_style_2, .cay div.p_table li.row_style_3, .cay div.p_table li.row_style_4 {
+    float: left;
+    height: 100%;
+    min-height: 34px;
+}
+
+.cay #roam-rates .table > tbody > tr > td, .cay #roam-rates .table > tbody > tr > th, .cay #roam-rates .table > tfoot > tr > td, .cay #roam-rates .table > tfoot > tr > th, .cay #roam-rates .table > thead > tr > td, .cay #roam-rates .table > thead > tr > th {
+    padding: 18px 8px;
+}
+
+.cay .pad-list li {
+    margin: 15px 0;
+}
+
+.cay .roaming-bg {
+    background: url(images/ny.jpg) no-repeat;
+    /*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+    height: 635px;
+    padding-top: 26px;
+}
+
+.cay .romaing-prepaid-hero {
+    background: #00aeef none repeat scroll 0 0;
+    height: 590px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 320px;
+}
+
+.cay .romaing-postpaid-hero {
+    background: #00aeef none repeat scroll 0 0;
+    height: 590px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    width: 320px;
+}
+
+.cay .carousel-control .glyphicon-chevron-left, .cay .carousel-control .icon-prev {
+    margin-left: -63px;
+}
+
+.cay .carousel-control .glyphicon-chevron-right, .cay .carousel-control .icon-next {
+    margin-right: -63px;
+}
+
+.cay .card a {
+    color: #fff;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.cay .card-block p {
+    color: #fff;
+}
+
+.cay .card-block {
+    height: 130px;
+}
+
+.cay .price-box {
+    background: #00aeef none repeat scroll 0 0;
+    color: #fff;
+    height: 370px;
+    padding: 15px 2px;
+}
+
+.cay .modal-content {
+    background-color: #fff;
+    border-radius: 0px;
+    border: 0px;
+    color: #094FA8;
+    border: 10px solid #094FA8;
+    /*padding: 10px;*/
+    margin-top: 70px;
+}
+
+.cay .modal-backdrop.in {
+    filter: alpha(opacity=60) !important;
+    opacity: 0.6 !important;
+}
+
+.cay .modal .modal-close {
+    background: #fff url(../images/close.png) no-repeat left top;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+     right: -15px;
+     top: -15px;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-size: 30px 30px;
+}
+
+.cay .modal-backdrop {
+    background-color: #fff !important;
+}
+
+.cay li#pt {
+    width: 141px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cay .nav-tabs>li#pt.active>a, .cay .nav-tabs>li#pt.active>a:focus, .cay .nav-tabs>li#pt.active>a:hover {
+    border: 0px solid #ddd !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.cay .nav-tabs > li > a {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.cay li#pt.active {
+    background-color: rgb(13, 99, 174);
+    border-radius: 0 !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 52px !important;
+}
+
+.cay li#pt.active a {
+    background-color: #FF0;
+    margin: 0px;
+    /* text-shadow: 0 0 3px #000; */
+}
+
+.cay .nav {
+    background-color: #CCC;
+    margin-top: -20px;
+}
+
+.cay .nav-tabs {
+    /*background-color:#3F0;*/
+    background-color: transparent;
+    border: 0px;
+    /* border-bottom-color:#CCC;
+    border-bottom-width:thin;
+    border-bottom-style:soli#ptd;
+    border-radius: 0px 0px 20px 20px;*/
+}
+
+.cay .nav-tabs li#pt.active a {
+    background-color: transparent;
+    color: #FFF;
+    border-bottom-color: #FFF;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0);
+    outline: medium none;
+}
+
+.cay .nav-tabs li#pt a {
+    background-color: #ccc;
+    color: #666;
+    font-weight: 200;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08) inset;
+}
+
+.cay #myCarousel {
+    width: 846px;
+    height: 315px;
+}
+
+.cay .tab-content {
+    /*padding: 10px; */
+}
+
+.cay .tab-content>.active {
+    margin-top: 20px !important;
+}
+
+.cay .nav-tabs>li>a {
+    border: 0px solid transparent !important;
+}
+
+.cay .nav-tabs>li>a {
+    border-radius: 0px 0px 0 0 !important;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 20px;
+    z-index: 1616;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.cay div.upgrade-content.upgrade-robust-content {
+    min-height: 497px;
+    margin-bottom: 0;
+}
+
+.cay div.upgrade-content {
+    overflow: visible;
+    margin: 50px 50px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    clear: both;
+}
+
+.cay div.upgrade-content.extra-margin {
+    margin: 50px 60px;
+}
+
+.cay div.upgrade-content.upgrade-content-home {
+    margin: 50px 38px;
+}
+
+.cay div.upgrade-content.upgrade-content-home>p {
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cay div.upgrade-content.upgrade-content-home>h1 {
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cay div.upgrade-content.upgrade-content-lrg-margin {
+    margin: 70px 70px;
+}
+
+.cay div.modal div.upgrade-content {
+    margin: 40px;
+    float: none;
+    overflow: visible;
+}
+
+.cay .upgrade-txt-input {
+    display: inline-block;
+    padding: 11px 9px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555555;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    width: 325px;
+    float: left;
+    font-weight: normal;
+}
+
+.cay .upgrade-txt-input:focus {
+    border-color: rgba(140, 198, 63, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(140, 198, 63, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(140, 198, 63, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(140, 198, 63, .6);
+}
+
+.cay .upgrade-txt-input.upgrade-error {
+    border-color: rgba(255, 0, 0, 0.2);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(255, 0, 0, .1);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(255, 0, 0, .1);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(255, 0, 0, .1);
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    line-height: inherit;
+}
+
+.cay div.deezer-hero {
+    position: relative;
+    background: url(upgrade/images/deezer/bg.jpg?1=2) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.cay div.deezer-hero-content {
+    background-color: #005DB1;
+    ;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.cay div.deezer-tab {
+    overflow: hidden;
+    margin: 60px 0 0 60px;
+}
+
+.cay div.deezer-tab a {
+    padding: 15px 60px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.cay div.deezer-tab a.selected {
+    background-color: #8cc63f;
+    color: #fff;
+}
+
+.cay ul.ticks {
+    list-style: none;
+    padding: 15px 0 30px;
+    display: block;
+    clear: both;
+}
+
+.cay ul.ticks li {
+    margin-left: 25px;
+    padding-left: 35px!important;
+    background: url(upgrade/images/deezer/tick.png) no-repeat left center;
+    font-size: 22px;
+    color: #000!important;
+    margin-bottom: 15px;
+}
+
+.cay .pr-box1 {
+border: 1px solid #ddd;
+height: 410px;
+}
+
+.cay .pr-box1 .wrap {
+    background: #eeefed none repeat scroll 0 0;
+border-bottom: 1px solid #ddd;
+ padding: 20px 5px;
+}
+
+.cay .pr-box2 {
+    border: 1px solid #ddd;
+       height: 450px;
+    margin-top: -15px;
+}
+
+.cay .pr-box2 .wrap {
+     background-color: #00adef;
+      padding: 20px 5px;
+}
+
+.cay .pr-box2 .wrap p {
+    color: #fff;
+}
+
+.cay .pr-box2 .wrap .content-text {
+    color: #fff;
+}
+
+.cay .pr-box2 .wrap .head {
+    color: #fff;
+}
+
+.cay .pr-box2 p,
+.cay .pr-box1 p {
+    color: #6f6f6f;
+    font-family: Gotham Book;
+    font-size: 15px;
+     padding: 10px 5px;
+}
+
+.modal-backdrop {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.cay #abt-exe-block {
+    height: 320px;
+}
+
+.cay #abt-exe-block .caption h3 {
+    color: #fff;
+     font-size: 18px;
+
+}
+
+.cay #abt-exe-block .caption p {
+color: #fff;
+
+}
+.cay .abt-block1 {
+    background-color: #f5f0b8;
+    border: 1px solid #d8d39f;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    height: 210px;
+}
+.cay .abt-block2 {
+   background-color: #d9fcac;
+    border: 1px solid #85a857;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    height: 210px;
+}
+.cay .abt-block3 {
+  background-color: #bdeafc;
+    border: 1px solid #528da5;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    height: 210px;
+}
+
+
+.cay a.upgrade-btn {
+    -moz-user-select: none;
+    background-color: #337ab7;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: GothamLight;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.fade.in {
+  opacity: 1;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.modal-backdrop.fade {
+    opacity: 0.6 !important;
+    filter: alpha(opacity=0);
+}
+
+
+/* --------- Responsive Styling -------- */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    color: #fff !important;
+
+    }
+
+.cay .ffa-intro  {
+    position: relative;
+    left: 85px;
+    bottom: 120px;
+}
+
+.cay .mfa-first {
+    height: 400px;
+    background-image:url('/widgets/apps/images/hero.jpg');
+        background-position: 15% 0;
+}
+    .cay #flowbtn {
+        margin-bottom: 20px;
+    }
+
+hr.space {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Tabbing */
+@media (max-width: 767px) {
+    .nav-tabs > li {
+        margin: 0;
+    }
+
+
+  .cay .mfa-first {
+    background-image: none;
+  }
+
+
+    #sticky.stick {
+        margin-left: -15px;
+    }
+
+    .cay .nav-tabs > li > a {
+        margin: 0 !important;
+    }
+    .cay li#pt {
+        width: 33.33%;
+    }
+
+    .cay .talk-block .fa {
+    font-size: 10em !important;
+    margin-right: 0;
+    margin-bottom: 0;
+    }
+
+    .cay .talk-block p {
+    padding-right: 0;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    }
+
+    .cay .ffa-intro {
+        position: initial;
+        left: 0;
+        bottom: 0;
+        width: 305px;
+        margin: 20px auto 0;
+    }
+}
+
+@media (max-width: 425px) {
+      .cay li#pt {
+      font-size: 16px;
+  }
+
+.cay div.deezer-hero-content {
+    padding: 10px;
+}
+
+  hr.space {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.talk-block .ttu-heading {
+    text-align: center;
+}
+
+.talk-block .ttu-body {
+    text-align: center;
+}
+
+.cay .mfa-first {
+    height: 320px;
+}
+
+  .cay li#pt.active {
+      font-size: 16px;
+      height: auto !important;
+  }
+    /* page style */
+    .cay .subhead {
+    font-size: 46px;
+    line-height: 46px;
+    }
+    .cay .head {
+    line-height: 30px;
+    font-size: 30px;
+    }
+    .cay .content-title-b {
+    font-size: 18px;
+    line-height: 24px;
+    }
+    .cay .content-text {
+    font-size: 16px;
+    line-height: 22px;
+    }
+    .cay .content-textsm {
+    font-size: 16px;
+    line-height: 22px;
+    }
+
+    .cay #faq-block a {
+    font-size: 18px;
+    }
+
+    .cay #faq-block .panel-heading {
+    padding: 12px 15px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 345px) {
+    .cay li#pt {
+        font-size: 14px;
+    }
+
+.cay .mfa-first {
+    height: 350px;
+}
+
+    .cay li#pt.active {
+        font-size: 14px;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 319px) {
+    .cay li#pt {
+        width: 50%;
+    }
+}
