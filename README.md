@@ -3,7 +3,16 @@
 ## Current Progrss
 
 ### Default.aspx
-![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/preview.jpg "Preview")
+![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/1.jpg "Preview")
+
+### Login.aspx
+![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/2.jpg "Preview2")
+
+### Register.aspx
+![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/3.jpg "Preview3")
+
+### ManageRoles.aspx
+![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/4.jpg "Preview4")
 
 ## Objective:
 Students are to develop e-commerce financial system based ASP.NET system, using C# programming language, T-SQL, .NET tools and technologies (MS Visual Studio 2015/17 and MS SQL Server 2014), which provide telephone bill payments for the LIME company by customers using Internet.
