@@ -4269,7 +4269,6 @@ output{
 .form-control{
     display:block;
     width:100%;
-    height:36px;
     padding:6px 12px;
     font-size:14px;
     line-height:1.6;
@@ -4615,7 +4614,7 @@ textarea.input-lg,select[multiple].input-lg{
     min-height:29px;
 }
 .form-horizontal .form-group{
-    margin-left:-15px;
+    margin-left: 20px;
     margin-right:-15px;
 }
 @media (min-width:768px){

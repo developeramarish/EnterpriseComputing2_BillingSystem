@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E2A5FDD3-90FF-4351-9D92-86228E9DB05F}</ProjectGuid>
+    <ProjectGuid>{2E774C2B-A35C-466C-9798-386DE16F8EA9}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -198,6 +198,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Auth_Customer\customer.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -207,6 +208,7 @@
     <Content Include="Content\style2.css" />
     <Content Include="Content\style3.css" />
     <Content Include="Content\style4.css" />
+    <Content Include="CreateRole.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -249,12 +251,19 @@
     <Content Include="images\tabs_05.png" />
     <Content Include="images\Unlimited-Data--Carousel-6667x1708_0.jpg" />
     <Content Include="images\website-assets-151117_carousel_6667x1708_get_it_now_0.jpg" />
+    <Content Include="Maintenance\Default.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\js_53ew9sAZeIX-NrON2eFFzvod7566DMW4KJKGsO1eX94.js" />
+    <Content Include="Scripts\js_AGapJlpELPrRHAIKJAO26RCOn-wvrL-l9XwZV0D0SBs.js" />
+    <Content Include="Scripts\js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js" />
+    <Content Include="Scripts\js_CPWgMVJKnK0_AmFunAhBjq48O34bHp4OCDZR0l0S4S8.js" />
+    <Content Include="Scripts\js_WkOMkSyjg9rxsesVK2mUAVX_dhZTWbIE6jpIzuL-ygM.js" />
+    <Content Include="Scripts\js_Y71qSPfs6CEJ1UaJnNNbriTrmANC05BXVppZPoh2Zbg.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -290,12 +299,6 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
-    <Content Include="Scripts\js_53ew9sAZeIX-NrON2eFFzvod7566DMW4KJKGsO1eX94.js" />
-    <Content Include="Scripts\js_AGapJlpELPrRHAIKJAO26RCOn-wvrL-l9XwZV0D0SBs.js" />
-    <Content Include="Scripts\js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js" />
-    <Content Include="Scripts\js_CPWgMVJKnK0_AmFunAhBjq48O34bHp4OCDZR0l0S4S8.js" />
-    <Content Include="Scripts\js_WkOMkSyjg9rxsesVK2mUAVX_dhZTWbIE6jpIzuL-ygM.js" />
-    <Content Include="Scripts\js_Y71qSPfs6CEJ1UaJnNNbriTrmANC05BXVppZPoh2Zbg.js" />
     <Content Include="Scripts\linkid.js.download" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -421,12 +424,26 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Auth_Customer\customer.aspx.cs">
+      <DependentUpon>customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth_Customer\customer.aspx.designer.cs">
+      <DependentUpon>customer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateRole.aspx.cs">
+      <DependentUpon>CreateRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateRole.aspx.designer.cs">
+      <DependentUpon>CreateRole.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -437,6 +454,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -479,9 +503,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63983</DevelopmentServerPort>
+          <DevelopmentServerPort>52049</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:63983/</IISUrl>
+          <IISUrl>http://localhost:52049/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
