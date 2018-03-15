@@ -78,26 +78,9 @@
                                     </asp:LoginView>
                                 </ul>
                             </div>
-                            <div class="pull-left">
-                                <form class="form-search content-search" id="search-block-form" accept-charset="UTF-8">
-                                    <div>
-                                        <div id="search-block-group" class="dropdown">
-                                            <a id="search-trigger" class="fa fa-search" href="#" data-toggle="dropdown" role="button">Search</a>
-                                            <div id="search-block" class="dropdown-menu">
-                                                <h2 class="element-invisible">Search form</h2>
-                                                <div class="input-group">
-                                                    <input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128"><span class="input-group-btn">
-                                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                                    </span>
-                                                </div>
-                                                <button class="element-invisible btn btn-primary form-submit" id="edit-submit" name="op" value="Search" type="submit">
-                                                    Search
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                          <%--  <div class="pull-left">
+                              
+                            </div>--%>
                         </div>
                     </div>
                 </div>
