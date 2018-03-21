@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace EC2_FinalProject.Auth_Customer
 {
-    public partial class customer : System.Web.UI.Page
+    public partial class Customer : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

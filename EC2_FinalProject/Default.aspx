@@ -55,8 +55,8 @@
                         <div id="block-system-user-menu" class="block-menu col-sm-6">
                             <div class="pull-left">
                                 <ul class="list-inline">
-                                    <li class="first leaf"><a href="#" id="top-up" class="fa fa-mobile">Top Up</a></li>
-                                    <li class="leaf"><a href="Account/Login.aspx" class="fa fa-user">Account</a></li>
+                                    <li class="leaf"><a runat="server" id="isAdmin" href="~/Auth_Admin/Admin" class="fa fa-user">Account</a></li>
+                                    <li class="leaf"><a runat="server" id="isCustomer" href="~/Auth_Customer/Customer" class="fa fa-user">Account</a></li>
                                     <li class="leaf"><a href="#" id="stores" class="fa fa-map-marker">Stores</a></li>
                                     <li class="last collapsed"><a href="#" id="support" class="fa fa-life-ring">Support</a>
                                     </li>

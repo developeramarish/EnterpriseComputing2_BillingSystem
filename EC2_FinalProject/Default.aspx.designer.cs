@@ -11,5 +11,23 @@ namespace EC2_FinalProject {
     
     
     public partial class Default {
+        
+        /// <summary>
+        /// isAdmin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor isAdmin;
+        
+        /// <summary>
+        /// isCustomer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor isCustomer;
     }
 }

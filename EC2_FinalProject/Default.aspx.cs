@@ -12,6 +12,16 @@ namespace EC2_FinalProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.User.IsInRole("admin"))
+            {
+                isAdmin.Visible = false;
+
+            }
+            if (!Page.User.IsInRole("customer"))
+            {
+                isCustomer.Visible = false;
+
+            }
             if (Page.IsPostBack)
             {
                 Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

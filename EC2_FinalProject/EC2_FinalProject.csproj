@@ -198,7 +198,8 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Auth_Customer\customer.aspx" />
+    <Content Include="Auth_Admin\Admin.aspx" />
+    <Content Include="Auth_Customer\Customer.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -225,6 +226,8 @@
     <Content Include="fonts\icomoon.eot" />
     <Content Include="fonts\icomoon.ttf" />
     <Content Include="fonts\icomoon.woff" />
+    <Content Include="Auth_Customer\Web.config" />
+    <Content Include="Auth_Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="fonts\icomoon.svg" />
     <Content Include="images\Carifta-Website-v6-Carousel_6667x1708-Jamaica.jpg" />
@@ -424,12 +427,19 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Auth_Customer\customer.aspx.cs">
-      <DependentUpon>customer.aspx</DependentUpon>
+    <Compile Include="Auth_Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Auth_Customer\customer.aspx.designer.cs">
-      <DependentUpon>customer.aspx</DependentUpon>
+    <Compile Include="Auth_Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth_Customer\Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth_Customer\Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
