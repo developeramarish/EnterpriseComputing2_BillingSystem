@@ -472,6 +472,8 @@
     <Compile Include="Maintenance\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\BusinessClass.cs" />
+    <Compile Include="Models\calculate.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

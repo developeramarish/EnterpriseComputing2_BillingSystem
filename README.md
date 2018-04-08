@@ -3,7 +3,7 @@
 ## Current Progrss
 
 ### Default.aspx
-![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/1.jpg "Preview")
+![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/1.png "Preview")
 
 ### Login.aspx
 ![alt text](https://github.com/Lithium95/EC2_FinalProject/blob/master/img/2.png "Preview2")

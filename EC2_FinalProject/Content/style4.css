@@ -5611,7 +5611,7 @@ textarea.input-group-sm > .form-control,textarea.input-group-sm > .input-group-a
 }
 input,input[type="checkbox"]{
     margin-left:0;
-    margin:0;
+    margin:0 0 0 13px;
 }
 input + label,input[type="checkbox"] + label{
     margin-left:10px;
