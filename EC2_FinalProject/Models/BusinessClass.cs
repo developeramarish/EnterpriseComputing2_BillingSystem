@@ -157,5 +157,49 @@ namespace EC2_FinalProject.Models
                 throw;
             }
         }
+
+        public static double getLimeBalance()
+        {
+            SqlConnection con = new SqlConnection(GetConnectionString("ncb"));
+            SqlCommand cmd = new SqlCommand("getTotalTransaction", con);
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+            try
+            {
+               
+                con.Open();
+                double balance = Convert.ToDouble(cmd.ExecuteScalar());
+                con.Close();
+                return balance;
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
+        }
+
+        public static int Update_Lime_Account(double Amount)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection(GetConnectionString("ncb"));
+                SqlCommand cmd = new SqlCommand("Account_UpdateAmount", con);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                //Stored Procedure Parameters
+
+                cmd.Parameters.AddWithValue("@Amount", Amount);
+              
+                con.Open();
+                int result = cmd.ExecuteNonQuery();
+                con.Close();
+
+                return result;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

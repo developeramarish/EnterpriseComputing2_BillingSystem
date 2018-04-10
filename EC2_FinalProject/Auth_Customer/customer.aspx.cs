@@ -65,13 +65,16 @@ namespace EC2_FinalProject.Auth_Customer
                     BusinessClass.Scotia_AccountUpdate(username, password, having, Convert.ToDouble(amount.Text));
                     BusinessClass.Update_Bill(billId, (owing - Convert.ToDouble(amount.Text)));
                     BusinessClass.NCB_Transaction_Insert(fullName, billId, DateTime.Now, Convert.ToDouble(amount.Text));
+                    double balance = BusinessClass.getLimeBalance();
+                    BusinessClass.Update_Lime_Account(balance);
+                    //lblmessage2.Text = "Flow's NCB Balance is now "+ Convert.ToString(balance);
                 }
             }
             catch (Exception ex)
             {
                 lblmessage.ForeColor = System.Drawing.Color.Red;
-                //lblmessage.Text = "Select the bill you want to pay";
-                lblmessage.Text = Convert.ToString(ex);
+                lblmessage.Text = "Select the bill you want to pay";
+                //lblmessage.Text = Convert.ToString(ex);
             }
             //Response.Redirect("Customer.aspx", false);
         }

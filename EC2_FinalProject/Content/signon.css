@@ -1,0 +1,39 @@
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: right;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #2a5db0;
+}
+
+.RUIFW-brand-alt {top: 0}
+
+.form-control-signon {width: 29%;}
+
+.form-control-reset {width: 61%;}
+
+.signOn-pswd-instructions 
+{
+list-style-type: none;
+margin: 0px -80px;
+}
+
+.reset-password-intructions 
+{
+margin: 0px -40px;	
+}
+
+.btn-holder-signon 
+{
+text-align: left;
+}

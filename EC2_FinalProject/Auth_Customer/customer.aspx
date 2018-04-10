@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Customer.aspx.cs" Inherits="EC2_FinalProject.Auth_Customer.Customer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
+    <asp:HyperLink ID="HyperLink1"  NavigateUrl="~/ScotiaLogin.aspx" runat="server">Scotia Login</asp:HyperLink><br /><br />
     <center>
+        
         <h3>Bill Summary</h3>
         
         <%--Grid View--%>
