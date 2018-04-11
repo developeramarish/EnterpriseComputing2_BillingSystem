@@ -13,5 +13,15 @@ namespace EC2_FinalProject.Auth_Admin
         {
 
         }
+
+        protected void btnroles_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Maintenance/Default.aspx");
+        }
+
+        protected void btnncb_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/NCBLogin.aspx");
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EC2_FinalProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,17 @@ namespace EC2_FinalProject
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnsignin_Click(object sender, EventArgs e)
+        {
+            loginClass log = new loginClass();
+
+            log.Username = username.Text;
+            log.Password = passwrd.Text;
+
+            Session["loginSession"] = log;
+            Response.Redirect("Scotia/dashboard.aspx");
         }
     }
 }

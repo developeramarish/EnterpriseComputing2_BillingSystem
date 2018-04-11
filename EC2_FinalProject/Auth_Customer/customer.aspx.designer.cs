@@ -13,13 +13,13 @@ namespace EC2_FinalProject.Auth_Customer {
     public partial class Customer {
         
         /// <summary>
-        /// HyperLink1 control.
+        /// login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.Button login;
         
         /// <summary>
         /// GridView1 control.
@@ -67,6 +67,15 @@ namespace EC2_FinalProject.Auth_Customer {
         protected global::System.Web.UI.WebControls.TextBox acountId;
         
         /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        
+        /// <summary>
         /// lblName control.
         /// </summary>
         /// <remarks>
@@ -85,6 +94,15 @@ namespace EC2_FinalProject.Auth_Customer {
         protected global::System.Web.UI.WebControls.TextBox name;
         
         /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        
+        /// <summary>
         /// accountType control.
         /// </summary>
         /// <remarks>
@@ -94,13 +112,13 @@ namespace EC2_FinalProject.Auth_Customer {
         protected global::System.Web.UI.WebControls.Label accountType;
         
         /// <summary>
-        /// accType control.
+        /// CustomCalendar1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox accType;
+        protected global::CustomerCalender.CustomCalendar CustomCalendar1;
         
         /// <summary>
         /// lblAmount control.
@@ -121,6 +139,15 @@ namespace EC2_FinalProject.Auth_Customer {
         protected global::System.Web.UI.WebControls.TextBox amount;
         
         /// <summary>
+        /// RequiredFieldValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        
+        /// <summary>
         /// soctiauser control.
         /// </summary>
         /// <remarks>
@@ -139,6 +166,15 @@ namespace EC2_FinalProject.Auth_Customer {
         protected global::System.Web.UI.WebControls.TextBox bankuser;
         
         /// <summary>
+        /// RequiredFieldValidator5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        
+        /// <summary>
         /// scotiapassword control.
         /// </summary>
         /// <remarks>
@@ -155,6 +191,15 @@ namespace EC2_FinalProject.Auth_Customer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox bankpassword;
+        
+        /// <summary>
+        /// RequiredFieldValidator6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
         
         /// <summary>
         /// pay control.

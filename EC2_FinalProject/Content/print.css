@@ -1,0 +1,136 @@
+
+@media print {
+#printHeader, #printFooter{display: block!important;}
+a{ color: #2a5db0 !important; }
+header{display: none!important;}
+footer{display: none!important;}
+.item-description{display: none!important;}
+#headerData{ margin-bottom:-10px;}
+#headerData label{ display:inline-block;}
+.noprint,#printHeader.noprint, #printFooter.noprint {display: none!important;}
+.navleft, .inline-nav, .quick-menu, .toggle-btn {display: none!important;}
+.actions{display: none!important;}
+.homebottomtable table tr th{ border:1px solid #d8d8d8!important;}
+.quick-menu-box{display: none!important; position: relative; overflow: visible !important; float: none !important; height:0px!important;}
+.RUIFW-container-header{display: none!important; position: relative; overflow: visible !important; float: none !important;}
+.print {display: block!important;}
+.progress{display: block!important;min-height:14px!important;overflow:visible!important;width:100%!important; clear:both; vertical-align:top; float:none;background-repeat: repeat-x;border-radius: 0px;border: 1px solid #D7D7D7!important;background-color: #d5d5d5!important;}
+.progress-bar-success { clear:both; vertical-align:top; float:none;display: block!important; overflow:hidden!important;  background-color: #00bb04!important;background-repeat:repeat-x;min-height:12px}
+.progress-bar-success:before{content:url(../images/print-progress-success.gif) ;}
+.progress-bar-danger{clear:both; vertical-align:top; float:none;display: block!important; background-color: #d81e05!important; min-height:12px;background-repeat:repeat-x; overflow:hidden!important; }
+.progress-bar-danger:before{content:url(../images/print-progress-danger.gif) ;}
+
+.overview-container{min-height:115px!important;width: 100%!important; clear:both; vertical-align:top; float:none;display: block!important; overflow:visible!important; border:none; padding-bottom:20px!important;}
+.overview-sect1{display: block!important; overflow:visible!important;padding-left:5px;}
+.overview-sect1 div.row{border-right: 1px solid #D7D7D7!important;}
+.overview-sect2{display: block!important; overflow:visible!important;}
+.RUIFW-content-main{display:block!important;width:100%!important;padding:0 0 200px 0!important; }
+.account-balance-container{display:block!important;width:100%!important;}
+.account-balance-container .RUIFW-hide.fade{max-height: 100%!important;min-height: 100%!important; display:block!important; clear:both; vertical-align:top; float:none;display: block!important; overflow:visible!important; }
+.accountDataset {border-top:1px solid #d8d8d8!important; }
+.accountDataset:before{margin-top:10px!important;}
+.tab-content-border{display:block!important;width:100%!important; margin-top:-2px!important;}
+.sub-header-bg{ width:100%;}
+.sub-header-bg .RUIFW-form-el{ border:none!important;}
+#myTab li.active{ border-bottom:2px solid #ffffff!important;}
+html, body{ border-bottom:none!important; background:none!important; padding: 0;position:relative; overflow:visible!important; float:none !important; font-family: Arial,sans-serif; }
+section{ border:none!important;}
+.RUIFW-page-wrap{ background:none!important;display: block!important;}
+.RUIFW-page-wrap:after{border:none!important; height:0px;}
+.hr-separator{display: block!important; overflow:visible!important;border-bottom: 1px solid #D7D7D7!important;height: 1px!important;width: 100%!important;margin-bottom: 15px!important;}
+a[href]:after { content: none !important;}
+.red-text {color: #d81e05!important;}
+h1{ padding-left:0px!important;margin-left:-5px;}
+.exp-collapse a.print_Open:before { content: "\f0d7"!important; margin-bottom:0px!important;padding-bottom:0px!important;}
+@page { /*margin-top: 0; margin-bottom:0;*/ size:auto;  /* auto is the current printer page size */}
+
+.fade.in.RUIFW-print-view{max-height:0px!important; overflow:hidden; z-index:0;}
+
+#transactionDetails .accnt-act-details1 {border: 1px solid #D7D7D7!important; margin-top:20px;}
+#transactionDetails .accnt-act-details1 p { margin: 0; vertical-align: text-top;border-bottom: 1px solid #D7D7D7!important; }
+#transactionDetails .accnt-act-details1 p span { display: inline-block; nowhitespace: afterproperty; word-wrap: break-word; /* Internet Explorer 5.5+ */ word-break: break-all; width: 65%; vertical-align: text-top;padding:5px!important;border-left: 1px solid #D7D7D7!important;  }
+#transactionDetails .accnt-act-details1 label { width: 35%; font-weight: normal!important; font-size: 12px; vertical-align: text-top; display: inline-block; margin-bottom:0px;  width: 35%;padding:5px!important; border-right: 1px solid #D7D7D7!important;}
+
+
+.modal-open{  overflow:hidden!important;}
+.fade.modal{overflow:hidden!important; display:none;}
+.modal.RUIFW-print-view{display:block!important; position:absolute!important; top:40px!important; overflow:visible!important;}
+.modalPrint #printFooter{ margin-top:70%;}
+
+.modalPrint .modal-header{ text-align:center!important; padding:0!important;}
+.modalPrint .modal-header h4{text-align:center!important;}
+.modalPrint .modal-body{padding: 10px 0 15px 0!important;}
+.modalPrint .modal-dialog {width:98%!important; padding-top:10px!important;}
+
+.RUIFW-content-main{margin-bottom:-200px!important; }
+
+
+
+.modalPrint .accnt-act-details1 p { margin: 0; vertical-align: text-top; }
+.modalPrint .accnt-act-details1 p span { display: inline-block; nowhitespace: afterproperty; word-wrap: break-word; /* Internet Explorer 5.5+ */ word-break: break-all; width: 64.4%;  vertical-align: text-top; }
+.modalPrint .accnt-act-details1 label { width: 35%; font-weight: normal!important; font-size: 12px; vertical-align: text-top; display: inline-block; margin-bottom:0px;}
+
+.datepicker table tr td.activeEvent:before , .datepicker table tr td.activeEvent.disabled:before { content: "\f111" !important; color: #d81e05; font-family: fontAwesome; font-size: 15px; margin-right:5px;   }
+
+
+/* Recipts Styles */
+#recieptBlock {font-size: 1.5em;  font-family: Arial,sans-serif; margin-top: -20px; }
+.add-txt{width:100%; float:left; font-size:0.795em;line-height: 21px;}
+.hr-separator { width: 100%; border-bottom: 1px solid #535353; height: 1px; margin:10px 0px 10px 0px; }
+.clear{clear:both;}
+.rece-txt{color: #535353; font-size:0.77em; text-align:justify; line-height: 20px; hyphens: auto;}
+.rece-txt2{color: #535353; font-size:0.77em; text-align:left; font-weight:bold;line-height: 20px;}
+.com-txt2{color: #6F6E6E; font-size:0.89em; text-align:left;line-height: 20px;}
+.t_footer{font-size:0.78em;padding:50px 0px 0px 0px; color:#F00;}
+.add_div{float:left; width:600x;}
+.logo_div{float:right; width:200px;}
+.add_txt{font-size:1em; line-height:27px;}
+.add_txt2{font-size:0.82em; line-height: 20px;}
+.padding5{padding:0 0 5px 0;}
+.right-float{float:right; width:228px; text-align:right;}
+.right-float-can{float:right; width:297px; text-align:right;}
+.left-float {float:left; width:auto; text-align:left; margin-top:21px;}
+.mrgn-top-10{margin-top:10px;}
+.padding_table td{padding: 2px 5px 2px 5px;}
+ul.star-shaped-bullet li:before {content: "\2217"}
+ul.star-shaped-bullet { margin: 0; list-style: none; text-align: left; margin-left: -40px; }
+.margin-left{margin-left: -22px;}
+.fontsize{font-size: 1em;}
+
+
+.RUIFW-container-main  {overflow:hidden;  }
+
+#content_block .btn.btn-default, #content_block .check, #content_block .btn-holder {display:none}
+.tandcHolder{height:100%;overflow:visible}
+/* CSS for Leap Phase 2 Applications*/
+.termsandconditionsWrap{height: 100%; overflow:visible;}
+.printTermsFooterDisplay {display:block !important}
+#RUIFW-print-terms-modal .modal-dialog {margin-top:30px !important; float:left;width:100%;}
+#RUIFW-print-terms-modal .width100{width:100%;}
+.modal .RUIFW-print-view .modal-body .termsandconditionsWrap{display: block !important; height: 100% !important;}
+.print-button-wrap{display:none;}
+.download-print-button {display:none !important;}
+#RUIFW-print-terms-modal .modal-open{  overflow:visible!important;}
+#confirmView .mrgn-left-0{margin-left:0px}
+#confirmView .RUIFW-content-main{margin-bottom:0 !important; padding-bottom:0px !important;}
+.mainWrap{margin-bottom:0px;}
+#campaignForm .modal, #RUIFW-print-terms-modal{margin-top:0;}
+/* Firefox CSS print CSS */
+
+@-moz-document url-prefix() {
+	
+.RUIFW-content-main{display:block!important;width:680px!important;padding:0px!important;margin-top:-40px !important;}
+h1{ padding-left:0px!important;position:relative; overflow:visible !important; float: none !important;min-height:55px; margin-left:-5px;margin-top:-700px !important;}
+.account-balance-container{display:block!important;width:680px!important;}
+.tab-content-border{display:block!important;width:680px!important; margin-top:-2px!important;}
+.modal.RUIFW-print-view{top:40px!important;}
+#printFooter{margin-top:200px !important;}
+.modalPrint #printFooter{ margin-top:70%  !important;}
+.RUIFW-container-main {  overflow:visible; }
+#RUIFW-print-terms-modal .modal-dialog{page-break-after:avoid;width:100%; float:left;}
+#confirmView h1{page-break-before:always !important; margin-top:-120% !important;}
+.leftWrapper{margin-top:0;position:relative; left:2px;}
+}
+
+
+}

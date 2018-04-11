@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Customer.aspx.cs" Inherits="EC2_FinalProject.Auth_Customer.Customer" %>
 
+<%@ Register Assembly="CustomerCalender" Namespace="CustomerCalender" TagPrefix="cc1" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:HyperLink ID="HyperLink1"  NavigateUrl="~/ScotiaLogin.aspx" runat="server">Scotia Login</asp:HyperLink><br /><br />
+    <asp:Button ID="login" class="btn btn-primary" runat="server" Text="Scotia Login" Width="114px" OnClick="login_Click" /><br />
+    <br />
     <center>
         
         <h3>Bill Summary</h3>
@@ -61,38 +64,49 @@
             <td style="width: 286px">
                 <asp:Label ID="lblAcountId" runat="server" Text="Acount Id:"></asp:Label></td>
             <td>
-                <asp:TextBox ID="acountId" runat="server" Width="329px"></asp:TextBox></td>
+                <asp:TextBox ID="acountId" runat="server" Width="329px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="acountId" ErrorMessage="RequiredFieldValidator" ForeColor="Red">Account ID Required</asp:RequiredFieldValidator>
+            </td>
         </tr>
         <tr>
             <td style="width: 286px">
                 <asp:Label ID="lblName" runat="server" Text="Name on Acount:  "></asp:Label></td>
             <td>
-                <asp:TextBox ID="name" runat="server" Width="329px"></asp:TextBox></td>
+                <asp:TextBox ID="name" runat="server" Width="329px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="name" ErrorMessage="RequiredFieldValidator" ForeColor="Red">Account Name Required</asp:RequiredFieldValidator>
+            </td>
         </tr>
          <tr>
             <td style="width: 286px">
-                <asp:Label ID="accountType" runat="server" Text="Account Type: "></asp:Label></td>
+                <asp:Label ID="accountType" runat="server" Text="Date: "></asp:Label></td>
             <td>
-                <asp:TextBox ID="accType" runat="server" Width="329px"></asp:TextBox></td>
+                <cc1:CustomCalendar ID="CustomCalendar1" runat=server Width="329px" ImageButtonImageUrl="../images/calendar.png"></cc1:CustomCalendar>
+             </td>
         </tr>
         <tr>
             <td style="width: 286px">
-                <asp:Label ID="lblAmount" runat="server" Text="Amount Paying:  "></asp:Label></td>
+                <asp:Label ID="lblAmount" runat="server" Text="Amount:"></asp:Label></td>
             <td>
-                <asp:TextBox ID="amount" runat="server" Width="329px"></asp:TextBox></td>
+                <asp:TextBox ID="amount" runat="server" Width="329px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="amount" ForeColor="Red">Account Required</asp:RequiredFieldValidator>
+            </td>
         </tr>
 
         <tr>
             <td style="width: 286px">
                 <asp:Label ID="soctiauser" runat="server" Text="Soctia Account Username:  "></asp:Label></td>
             <td>
-                <asp:TextBox ID="bankuser" runat="server" Width="329px"></asp:TextBox></td>
+                <asp:TextBox ID="bankuser" runat="server" Width="329px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="bankuser" ForeColor="Red">Username Required</asp:RequiredFieldValidator>
+            </td>
         </tr>
         <tr>
             <td style="width: 286px">
                 <asp:Label ID="scotiapassword" runat="server" Text="Soctia Account Password:  "></asp:Label></td>
             <td>
-                <asp:TextBox ID="bankpassword" runat="server" Width="329px" TextMode="Password"></asp:TextBox></td>
+                <asp:TextBox ID="bankpassword" runat="server" Width="329px" TextMode="Password"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="bankpassword" ForeColor="Red">Password Required</asp:RequiredFieldValidator>
+            </td>
         </tr>
         <tr>
             <td style="width: 585px" colspan="2">

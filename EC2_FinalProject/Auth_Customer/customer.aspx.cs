@@ -16,6 +16,7 @@ namespace EC2_FinalProject.Auth_Customer
         protected void Page_Load(object sender, EventArgs e)
         {
             user.Text = User.Identity.Name;
+            //GridView1.SelectedIndex = 0;
         }
 
         protected void pay_Click(object sender, EventArgs e)
@@ -77,6 +78,19 @@ namespace EC2_FinalProject.Auth_Customer
                 //lblmessage.Text = Convert.ToString(ex);
             }
             //Response.Redirect("Customer.aspx", false);
+        }
+
+        protected void login_Click(object sender, EventArgs e)
+        {
+            logged log = new logged();
+
+            log.BillId = Convert.ToInt32(GridView1.SelectedRow.Cells[1].Text);
+            log.FirstName = Convert.ToString(GridView1.SelectedRow.Cells[2].Text);
+            log.LastName = Convert.ToString(GridView1.SelectedRow.Cells[3].Text);
+
+            Session["UserInfo"] = log;
+
+            Response.Redirect("~/ScotiaLogin.aspx");
         }
     }
 }

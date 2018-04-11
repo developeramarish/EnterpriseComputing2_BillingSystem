@@ -74,6 +74,7 @@ c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_Fina
 c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\bin\Microsoft.Owin.Security.OAuth.xml
-c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\obj\Debug\EC2_FinalProject.csprojResolveAssemblyReference.cache
 c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\obj\Debug\EC2_FinalProject.dll
 c:\users\lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\obj\Debug\EC2_FinalProject.pdb
+C:\Users\Lithium\Documents\Visual Studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\bin\CustomerCalender.dll
+C:\Users\Lithium\documents\visual studio 2015\Projects\EC2_FinalProject\EC2_FinalProject\obj\Debug\EC2_FinalProject.csprojResolveAssemblyReference.cache

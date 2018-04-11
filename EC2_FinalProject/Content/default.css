@@ -1,0 +1,265 @@
+/*##########################################
+#  Written By: www.newmediastudios.net     #
+#       Email: sheldon@newmediastudios.net #  
+#        Date: June 22, 2011               #
+###########################################*/
+*:focus{outline:none;}
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,code,img,dl,dt,dd,ol,ul,li,fieldset,form,table,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+html{background:#c8c8c8;}
+body{margin:0px; font-family:"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;font-size:11px;line-height:1.35em; color:#4b4c4d;}
+.img{float:left; margin:10px 15px 0px 20px;}
+.img img{border:3px solid #000;}
+a { color:#FFF; text-decoration:underline; }
+a:hover {}
+
+/* Main Container
+-------------------------------------------------------------- */  
+#greycontainer {margin-top:10px; margin-left:auto; margin-right:auto; width:787px;display:table; background:url('../../images/ncb_greycontainer_base.png') no-repeat bottom left; padding-bottom:10px; }
+#greycontainer #top{background:url('../images/ncb_greycontainer_top.png') no-repeat; display:block; height:80px; padding:10px 10px 0px 15px}
+#greycontainer #body{background:url('../images/ncb_greycontainer_body.png') repeat-y;   min-height:400px; padding:0px 0px 0px 0px; width:100%; display:table;}
+#greycontainer #body .content{padding:15px 0px 0px 15px; display:table;}
+#darkbluecontainer{background:url('../images/ncb_darkbluebottom.png') no-repeat bottom; width:533px;  padding-bottom:22px;}
+/* Dark Blue Container
+-------------------------------------------------------------- */  
+#darkbluecontainer .top{background:url('../images/ncb_darkbluetop.png') no-repeat; display:block; height:23px;width:533px;}
+#darkbluecontainer .body{background:url('../images/ncb_darkbluebody.png') repeat-y; display:block; min-height:120px; width:533px;}
+#darkbluecontainer .body h1{color:#fff; font-family:helvetica, arial; font-size:20px; font-weight:100;}
+#darkbluecontainer .body .glare{background:url('../images/ncb_darkblueglare.png') no-repeat; display:block; min-height:120px; width:500px; padding:10px; color:#fff;}
+/*#darkbluecontainer .body .glare p{margin-top:20px; line-height:13px;}*/
+/*#darkbluecontainer .body .glare  label{width:115px; font-size:14px; } */
+#darkbluecontainer .body input[type='submit'].yellowbtn{background:url('../images/ncb_login.png'); width:169px; height:28px; color:#333; border:0px; font-weight:bolder; text-transform:uppercase}
+/* Blue Container
+-------------------------------------------------------------- */  
+#bluecontainer{background:url('../images/ncb_bluebottom.png') no-repeat bottom; width:533px;  padding-bottom:20px; color:#fff;}
+#bluecontainer .top{background:url('../images/ncb_bluetop.png') no-repeat; display:block; height:20px;width:533px;}
+#bluecontainer .body{background:url('../images/ncb_bluebody.png') repeat-y; display:block; min-height:120px; width:533px;}
+#bluecontainer .body .glare{background:url('../images/ncb_blueglare.png') no-repeat; display:block; min-height:120px; width:533px;}
+#bluecontainer .body input[type='submit'].yellowbtn, #bluecontainer .body input[type='button'].yellowbtn{background:url('../../images/ncb_login.png'); width:169px; height:28px; color:#333; border:0px; font-weight:bolder; text-transform:uppercase}
+.yellowbtn{background:url('../images/ncb_login.png'); width:169px; height:28px; color:#333; border:0px; font-weight:bolder; text-transform:uppercase; float:right;}
+hr{background:url('../images/ncb_dottedline.png'); border:none; margin-top:10px; margin-bottom:10px; height:2px;}
+#bluecontainer .body .content{display:block; width:90%; margin:0 auto; padding:10px;}
+#bluecontainer .body h1{color:#fff; font-family:helvetica, arial; font-size:20px; font-weight:100;}
+
+/* Help Area
+-------------------------------------------------------------- */  
+#help{background:url('../images/ncb_helpbottom.png') no-repeat bottom; padding-bottom:10px; width:209px;  }
+#help .body{background:url('../images/ncb_helpbody.png') repeat-y; width:209px;  color:#4b4c4d; padding:0px 0px 0px 0px; display:block; height:inherit; min-height:270px}
+#help .body  .content{padding:20px 10px 0px 10px !important; height:inherit; display:table-cell;}
+#help .body  .content p{padding:10px 4px 0px 4px; font-size:11px;line-height:14px; }
+#help .top{background:url('../images/ncb_helptop.png') repeat-y; width:209px; height:20px;}
+#help .top h1{font-weight:bolder;  width:98px;margin-left:35px;text-align:center; text-transform:uppercase;}
+/* Footer Menu
+-------------------------------------------------------------- */  
+ul#footer-menu{margin:0 auto;  width:500px;padding:0px 0px 20px 0px}
+ul#footer-menu li{float:left; display:inline; font-size:11px; border-right:1px solid #ccc; padding:0px;}
+ul#footer-menu li.nbd{float:left; display:inline; font-size:11px; border-right:none !important; padding:0px;}
+ul#footer-menu li a{float:left; display:inline; font-size:11px;  padding:9px 9px; color:#4E4C4C;text-decoration:none;font-weight:normal;}
+ul#footer-menu li a:hover{color:#FD0005}
+#footer{width:787px; margin:15px auto; display:table; color:#424A4D}
+ul.footer{margin:0px; padding:0px;}
+ul.footer li{float:left; display:inline; border-right:1px solid #4b4c4d;; padding:2px 4px 0px 4px}
+ul.footer li.bd{float:left; display:inline; border-right:none; padding:2px 4px 0px 4px}
+ul.footer li a{text-decoration:none; color: #4b4c4d; }
+
+/* Misc. Item
+-------------------------------------------------------------- */  
+a.logo{display:table-cell; background:url('../images/ncb_onlinelogo.png') no-repeat; width:195px; height:46px; float:left;}
+.clr{clear:both;width:100%; height: 0px;}
+.failmsg{background:url('../images/1309286267_Warning.png') 2px 3px #F8C127 no-repeat; padding:10px 0px 0px 35px ; height:40px; color:#FF002E; font-size:12px; border-top:1px solid  #fff; border-bottom:1px solid  #fff; display:block; width:90%;margin:0 auto;}
+
+/* Common Class - These classes is use to help move around elements much easier
+----------------------------------------------------------------------------- */  
+.center{text-align:center;} /* Move Element to center */
+.text11{font-size:11px;} /* Change Element Font size to 11px */
+.marginleft15{margin-left:15px;} /* Move Element to 15px to from the left */
+.left{float:left; }/* Float Element to the left */
+.right{float:right; }/* Float Element to the right */
+.clr{clear:both;  } /* Clear Floating Elements */
+
+
+/* Increase Element Margin 
+---------------------------*/
+.top40{margin-top:40px;}
+.top60{margin-top:60px;}
+.top45{margin-top:45px;}
+.top20{margin-top:20px;}
+.top10{margin-top:10px;}
+.top5{margin-top:5px;}
+.marginRight10{margin-right:10px;}
+.marginRight40{margin-right:40px;}
+.marginleft10{margin-left:10px;}
+.marginleft40{margin-left:40px;}
+.marginleft45{margin-left:45px;}
+.marginleft120{margin-left:120px;}
+.marginleft20{margin-left:20px;}
+
+/* Increase Element width 
+---------------------------*/
+.width539{width:539px;}
+.width270{width:270px;}
+.width170{width:170px;}
+/* Add Border to element
+---------------------------*/
+.border-solid-bottom{border-bottom:solid 1px #ccc;width:99%}
+.border-solid-top{border-top:solid 1px #ccc;width:99.9%}
+
+/*Additional Attribute to Element
+---------------------------*/
+.height5pxi{height:5px;}
+.height370pxi{height:370px !important;}
+.height20pxi{height:20px !important;}
+.yellowText{color:#E3C900 !important;}
+.orangeText{color:#F19A04 !important;}
+.textLeft{text-align:left;}
+.textRight{text-align:right;}
+form{width:100%; margin:0px;}
+.center{width:100%;;margin-left: auto;margin-right: auto; }
+.titlefont{font-size:16px !important;}
+p{margin-top:10px;}
+a.link{text-decoration:none; color:#F0D028;}
+a.link:hover{ color:#fff;}
+/* Buttons
+----------------------------*/
+
+.rsainput img{ cursor:pointer;}
+
+.rsainput tr { height:20px; }
+
+.inputrow{ margin: 7px 0;min-height:25px; }
+
+label{float:left; margin:0 5px 0 15px; max-width:230px; font-size:14px;}
+
+input[type="text"], input[type="password"],textarea,select, .formtext{
+	float:right;
+	border-radius:3px;
+	border:#ffffff;
+	font-size:14px;
+	font-weight:normal;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+      -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus,
+textarea:focus, select:focus {
+  border-color: rgba(175, 238, 238, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(175, 238, 238, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(175, 238, 238, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(175, 238, 238, 0.6);
+}
+
+input[type='submit'].yellowbtn{background:url('../../images/ncb_login.png'); width:169px; height:28px; color:#333; border:0px; font-weight:bolder; text-transform:uppercase}
+
+/*Tooltip*/
+
+a.tooltip {
+	position:relative;
+	z-index:4;
+	color:#000;
+	text-decoration:none;
+}
+
+a.tooltip:hover {
+	z-index:25;
+}
+
+a.tooltip span {
+	display:none;
+}
+
+a.tooltip:hover span {
+	display:inline;
+	position:absolute;
+	top:-1em;
+	left:2em;
+	width:15em;
+	border:1px solid #0cf;
+	background-color:#cff;
+	color:#000;
+	text-align:center;
+}
+
+
+/******* Terms & Conditions *****/
+
+
+.tccontent h1{font-size:24px;}
+
+.tccontent h2{font-size:18px; margin:10px auto;}
+
+.tccontent a{color:#00C; text-decoration:underline;}
+
+
+.tctoc{ margin:0 30px; font-size:14px;}
+
+.tccontent{ 
+margin:0px;
+font-size:14px;
+width:95%;
+}
+
+.tccontent ul{
+	list-style:inherit;	
+}
+.entry{margin:40px auto;}
+.entry li { margin:3px 25px; }
+
+.tctoplink{ margin-top:-5px; float:right;}
+.skip{font-size:20px; margin:25px;}
+
+
+
+/*Error Message
+-------------------------*/
+#informationmsg {
+	width:94%;
+	padding-bottom:6px;
+	display:none;
+	margin:10px auto;
+}
+
+#informationmsg h1 {
+	font-weight:bolder;
+}
+
+#informationmsg .icon {
+	position:absolute;
+	margin:10px 0 0 20px;
+	background:url(../../images/information.png) no-repeat;
+	display:block;
+	height:37px;
+	width:46px;
+}
+
+#informationmsg .top {
+	height:5px;
+}
+
+#informationmsg .body {
+	background:#e6ebf5;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:4px 0 0 60px;
+	min-height:50px;
+}
+
+#informationmsg .body .details {
+	border-left:1px solid #ccc;
+	padding:0 5px 0 5px;
+}
+
+#informationmsg .rtop *, .rbottom * {
+	background:#e6ebf5;
+}

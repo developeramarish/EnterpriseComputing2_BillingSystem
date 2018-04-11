@@ -17,6 +17,14 @@
 		<link href="content/print.css" type="text/css" rel="stylesheet">
 		<link href="images/scotiabank.ico" rel="shortcut icon">
         
+	    <style type="text/css">
+            .auto-style1 {
+                color: #FFFFFF;
+                font-size: large;
+                background-color: #FF0000;
+            }
+        </style>
+        
 	</head>
 	<body data-gr-c-s-loaded="true">
 		<div class="RUIFW-page-wrap">
@@ -46,7 +54,7 @@
 				<div id="messages" class="success-msg"></div>
 				<div id="messages01" class="success-msg"></div>
 				<div id="content_block">
-					<form id="contentForm" name="contentForm">
+					<form id="contentForm" runat="server">
 						<h1 class="RUIFW-col-9 col-sm-9">Sign In to Scotia OnLine (Jamaica)</h1>
 						<div class="RUIFW-content-main RUIFW-col-9 col-md-9 col-sm-9">
 							<div class="wizard-form-content wrapfrom">
@@ -56,13 +64,13 @@
 											<div class="RUIFW-col-12 col-sm-12 col-sm-12">
 												
 												<label id="contentForm:scotiacard_SG">ScotiaCard number</label>
-												<input id="contentForm:nscard" type="text" name="contentForm:nscard" autocomplete="off" value="" class="RUIFW-form-el RUIFW-input-lg form-control form-control" maxlength="16" size="16">
-												<fieldset class="RUIFW-inline">
-													<span class="checkbox">
-														<input id="contentForm:remember" type="checkbox" name="contentForm:remember">
-														<label for="contentForm:remember">Remember my card (Optional)</label>
-													</span>
-													<br>(Not advised for public computers)
+												
+												<fieldset class="RUIFW-inline" style="margin-bottom: 0">
+													
+                                                        <asp:TextBox ID="username" runat="server" Height="29px" Width="243px"></asp:TextBox>
+														
+												        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="username" ErrorMessage="RequiredFieldValidator" ForeColor="Red">Please Enter Username</asp:RequiredFieldValidator>
+														
 												</fieldset>
 												
 												<div class="RUIFW-input-lg"></div>
@@ -72,7 +80,8 @@
 										<div class="RUIFW-row row">
 											<div class="RUIFW-col-12 col-sm-12"><label>Password:</label>
 											<div id="contentForm:pwField" class="RUIFW-input-lg">
-												<input id="contentForm:pwdnMasked" type="password" name="contentForm:pwdnMasked" autocomplete="off" value="" maxlength="16" size="16" class="RUIFW-form-el form-control">
+                                                <asp:TextBox ID="passwrd" runat="server" Height="29px" Width="243px" TextMode="Password"></asp:TextBox>
+											    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="passwrd" ErrorMessage="RequiredFieldValidator" ForeColor="Red">Please Enter Password</asp:RequiredFieldValidator>
 											</div>
 										</div>
 									</div>
@@ -96,8 +105,7 @@
 							<div class="clear"></div>
 							<br>
 							<div class="btn-holder">
-								<a id="contentForm:signIn" href="#" class="RUIFW-btn-primary btn btn-primary" onclick="">
-									<span class="icon-lock padd-rt-3px"></span> Sign In</a>
+								<asp:Button ID="btnsignin" runat="server" Text="Sigin" CssClass="auto-style1" OnClick="btnsignin_Click" Width="114px" />
 								</div>
 							</div>
 							<span class="gap"></span>

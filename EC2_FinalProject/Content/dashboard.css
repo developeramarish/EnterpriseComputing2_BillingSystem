@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+<HEAD>
+
+<META HTTP-EQUIV="Expires" CONTENT="Tue, 20 Aug 1997 14:25:27 GMT">
+
+<META http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+<title>
+	Finacle e-Banking solution
+</title>
+
+
+<link href="web/L001/Retailcss/default.css" type="text/css" rel="stylesheet" />
+
+
+
+</HEAD>
+
+<div id='greycontainer'>
+            <div id='top'><a href="#" class='logo'></a></div>
+            	<div id='body'>
+                	 <div class='content'>
+                   	 <!--Insert Your Content Here -->   
+                        	<div class='top20'>
+                                	<!--Insert Dark Blue top -->  
+                                	<div class='left'>
+                                          <div id="bluecontainer" class='top10'>
+                                   		  		<div class='top'></div>
+                                  		 			 <div class='body'>
+                                       	 				 <div class='content'>  
+                                       		 				<h1 class=''>APPLICATION SETUP ERROR !!</h1>
+                                          					<hr>
+                                        					<div class='top20'> This error has occured due to a problem in the application setup </div>
+                                       						 <div class='top20'>
+                                       						 		Please contact the Administrator of your Bank.
+						                                     </div>
+                                        					 <div class='clr top40'></div><hr>
+                                       						 <div class='clr top20'></div>                                     
+                                      						 <div class="clr "></div>
+                                       						 <div class='left'>
+                                                             
+
+
+		 <form action="https://retail.ncbelink.com/corp/BANKAWAY?Action.RetUser.Init.001=Y&AppSignonBankId=077&AppType=corporate&CorporateSignonLangId=001" method=POST>
+                                           							 <h1>Please <a href="https://retail.ncbelink.com/corp/BANKAWAY?Action.RetUser.Init.001=Y&AppSignonBankId=077&AppType=corporate&CorporateSignonLangId=001" width="99%" class="infoLinks">Click here</a>
+											to login again</h1>
+											</form>
+
+
+                                            
+										</div>
+										<div class=' top60'></div>
+                                	</div>
+          					</div>
+					</div>
+			</div>
+			
+			<div class='left'>
+				<!--Help-->
+				<div  class='left marginleft15 top10'>
+                
+					<a href="#"><img src='web/L001/images/jump_03.png'/></a>
+                    
+                </div>
+                <!--Help End-->
+            </div> 
+	</div>                   
+ </div>
+              <div class='top40'>
+                    <ul id="footer-menu">
+<br />
+<link rel="stylesheet" type="text/css" href="web/L001/css/tinybox.css">
+<script type="text/javascript" src="web/L001/script/tinybox.js"></script>
+
+<li><a href="#" onclick="TINY.box.show({iframe:'web/L001/corporate/jsp/common/online_security.htm',boxid:'frameless',width:640,height:480,fixed:false,maskid:'graymask',maskopacity:40})">Online Security</a></li>
+<li><a href="#" onclick="window.open('https://www.jncb.com/personalinternetbankingmanuals','_blank');">FAQs</a></li>
+<li><a href="#" onclick="window.open('https://www.jncb.com/bankingdemos','_blank');">Internet Banking Demos</a></li>
+<li><a href="#" onclick="TINY.box.show({iframe:'web/L001/corporate/jsp/common/privacy.htm',boxid:'frameless',width:640,height:480,fixed:false,maskid:'graymask',maskopacity:40})">Privacy Policy</a></li>
+<li><a href="#" onclick="TINY.box.show({iframe:'web/L001/corporate/jsp/common/terms.htm',boxid:'frameless',width:640,height:480,fixed:false,maskid:'graymask',maskopacity:40})">Terms and Conditions</a></li>
+
+ 	
+                    </ul>
+              </div>
+          	  <div class='top10 border-solid-bottom border-solid-top height5pxi'></div>  
+           	  <div class='center top10 text11'>
+                For more details, call us toll free at 1-888-NCB-FIRST (1-888-622-3477) or Messages us at ncbinfo@jncb.com.
+           	  </div>
+           </div>  
+    </div>
+    <div id="footer">
+        <div class='left'>
+        � Copyright 2011 NCB Ja. Ltd. All rights reserved.
+        </div>
+        <ul class='footer right'>
+            <li><a href="#">Privacy Statement</a></li>
+              <li class='bd'><a href="#">Legal Information</a></li>
+        </ul>
+    </div>
+
+</body>
+
+
+
+
+</HTML>
+
+
+
