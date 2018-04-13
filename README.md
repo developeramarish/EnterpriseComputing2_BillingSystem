@@ -1,4 +1,4 @@
-# EC2_FinalProject
+# Enterprise Computing2 - Billing System Final Project
 
 ## Current Progrss
 
